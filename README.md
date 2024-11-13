@@ -10,6 +10,14 @@ react version を下げる必要がある
 "react-dom": "^18.2.0"
 ```
 
+## `Auth UserPool not configured.` のエラー
+
+`ALLOW_USER_SRP_AUTH`と `ALLOW_USER_PASSWORD_AUTH` が入っていることを確認する
+
+<img width="261" alt="image" src="https://github.com/user-attachments/assets/724fb2f0-8db6-4524-9248-e360a5912629">
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
