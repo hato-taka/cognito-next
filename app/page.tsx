@@ -1,7 +1,16 @@
 'use client'
-
+import { Amplify } from 'aws-amplify'
 import { withAuthenticator } from "@aws-amplify/ui-react"
 import Image from "next/image";
+
+Amplify.configure({
+  Auth: {
+    Cognito: {
+      userPoolClientId: "",
+      userPoolId: ""
+    }
+  }
+})
 
 function Home() {
   return (
