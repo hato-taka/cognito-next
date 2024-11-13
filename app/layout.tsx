@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Amplify } from "aws-amplify";
+import "@aws-amplify/ui-react/styles.css";
 import localFont from "next/font/local";
 import "./globals.css";
 

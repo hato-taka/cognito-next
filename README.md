@@ -1,3 +1,15 @@
+# Next.js で cognitoの練習
+
+https://qiita.com/musutafakemaru/items/a00f4fe5448aa1969210
+
+
+## エラー
+react version を下げる必要がある
+```
+"react": "^18.2.0",
+"react-dom": "^18.2.0"
+```
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
